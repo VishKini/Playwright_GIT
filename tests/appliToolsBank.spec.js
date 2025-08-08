@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-const {loginPage} = require('../src/page/login');
+const {loginPage} = require('../src/page/login').default;
 
 test('Login Test', async ({ page }) => {
   await page.goto('https://demo.applitools.com/');

@@ -16,5 +16,5 @@ class LoginPage{
     }
 }
 
-module.exports = { LoginPage };
+export default { LoginPage };
 // Compare this snippet from tests/appliToolsBank.spec.js:
